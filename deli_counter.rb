@@ -4,7 +4,7 @@ katz_deli = ["Logan", "Avi", "Spencer"]
 def line(array) 
   if array.length >= 1
     new_arr = []
-    counter = 1 
+    counter = 1 # init counter
     array.each do |name|
       new_arr.push("#{counter}. #{name}")
       counter += 1 
