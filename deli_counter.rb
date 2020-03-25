@@ -1,8 +1,6 @@
 # Write your code here.
 katz_deli = ["Logan", "Avi", "Spencer"]
 
-
-
 def line(array) 
   if array.length >= 1
     new_arr = []
@@ -12,6 +10,7 @@ def line(array)
       counter += 1 
     end 
     puts "The line is currently: #{new_arr.join(" ")}"
+    puts
   else
     puts "The line is currently empty."
   end
