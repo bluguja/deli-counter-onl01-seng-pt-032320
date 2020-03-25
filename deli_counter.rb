@@ -28,12 +28,6 @@ def line_simple(array) # this one follows the same mechanics as learn.co
   puts current_line
 end 
   
-#line_simple(katz_deli)  
-#[:foo, :bar, :baz].each.with_index(1) do |value, index|
-#    puts "#{index}: #{value}"
-#end
-
-
 
 def take_a_number(line, new_person)
   line.push(new_person) # could say: "line << new_person"
