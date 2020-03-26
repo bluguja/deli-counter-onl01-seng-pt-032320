@@ -20,9 +20,9 @@ line(katz_deli)
 
 def line_simple(array) 
   current_line = "The simple line is currently:"
-  array.each.with_index(1) do |value, indexes|  
+  array.each.with_index(1) do |val, indexes|  
   
-    current_line << " #{indexes}. #{value} "    
+    current_line << " #{indexes}. #{val} "    
      
   end 
   puts current_line
