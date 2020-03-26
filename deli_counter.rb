@@ -28,7 +28,7 @@ def line_simple(array)
     current_line << " #{indexes}. #{val} "    
      
   end 
-  p current_line
+  puts current_line
 end 
   
 
