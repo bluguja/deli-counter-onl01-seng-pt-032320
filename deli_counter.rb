@@ -9,7 +9,7 @@ def line(array)
     
     array.each do |name|
       new_arr.push("#{counter}. #{name}")
-      counter += 1 
+      counter =counter + 1 
     end 
     
     puts "The line is currently: #{new_arr.join(" ")}"
