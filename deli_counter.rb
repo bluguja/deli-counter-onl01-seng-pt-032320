@@ -50,6 +50,6 @@ def now_serving(line)
   end
 end
 
-p now_serving(katz_deli)
-p katz_deli
+ now_serving(katz_deli)
+ katz_deli
 
