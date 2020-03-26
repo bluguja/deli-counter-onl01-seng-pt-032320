@@ -18,11 +18,11 @@ end
 
 line(katz_deli)
 
-def line_simple(array) # this one follows the same mechanics as learn.co
+def line_simple(array) 
   current_line = "The simple line is currently:"
-  array.each.with_index(1) do |value, indexemus|  
+  array.each.with_index(1) do |value, indexes|  
   
-    current_line << " #{indexemus}. #{value},"    
+    current_line << " #{indexes}. #{value},"    
      
   end 
   puts current_line
