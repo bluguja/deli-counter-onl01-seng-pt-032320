@@ -34,7 +34,7 @@ end
 
 def take_a_number(line, new_person)
   line.push(new_person) # could say: "line << new_person"
-  p "Welcome, #{new_person}. You are number #{line.length} in line."
+  puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
 take_a_number(katz_deli, "Matz")
@@ -50,6 +50,6 @@ def now_serving(line)
   end
 end
 
-p now_serving(katz_deli)
-p katz_deli
+puts now_serving(katz_deli)
+puts katz_deli
 
