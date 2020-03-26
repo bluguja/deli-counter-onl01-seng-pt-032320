@@ -1,14 +1,17 @@
 # Write your code here.
-katz_deli = ["Logan", "Avi", "Spencer"]
+katz_deli = ["Logan", "Avi", "Spencer","Jolie"]
 
 def line(array) 
+  
   if array.length >= 1
     new_arr = []
     counter = 1 # init counter
+    
     array.each do |name|
       new_arr.push("#{counter}. #{name}")
       counter += 1 
     end 
+    
     puts "The line is currently: #{new_arr.join(" ")}"
   
   else
@@ -37,6 +40,7 @@ end
 take_a_number(katz_deli, "Matz")
 
 def now_serving(line)
+  
  if line.length == 0 
  
     puts"There is nobody waiting to be served!"
