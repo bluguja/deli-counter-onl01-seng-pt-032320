@@ -15,7 +15,7 @@ def line(array)
     puts "The line is currently: #{new_arr.join(" ")}"
   
   else
-    puts "The line is currently empty."
+    p "The line is currently empty."
   end
 end
 
@@ -28,13 +28,13 @@ def line_simple(array)
     current_line << " #{indexes}. #{val} "    
      
   end 
-  puts current_line
+  p current_line
 end 
   
 
 def take_a_number(line, new_person)
   line.push(new_person) # could say: "line << new_person"
-  puts "Welcome, #{new_person}. You are number #{line.length} in line."
+  p "Welcome, #{new_person}. You are number #{line.length} in line."
 end
 
 take_a_number(katz_deli, "Matz")
@@ -43,7 +43,7 @@ def now_serving(line)
   
  if line.length == 0 
  
-    puts"There is nobody waiting to be served!"
+    p"There is nobody waiting to be served!"
   else
     puts "Currently serving #{line.first}." 
     line.shift 
