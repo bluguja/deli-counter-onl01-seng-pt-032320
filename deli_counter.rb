@@ -22,7 +22,7 @@ def line_simple(array)
   current_line = "The simple line is currently:"
   array.each.with_index(1) do |value, indexes|  
   
-    current_line << " #{indexes}. #{value},"    
+    current_line << " #{indexes}. #{value}"    
      
   end 
   puts current_line
